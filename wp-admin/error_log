@@ -1,0 +1,599 @@
+[09-Nov-2015 08:48:57] Erro de banco de dados do WordPress Got error -1 from storage engine para a consulta SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('product_type') AND tr.object_id IN (11) ORDER BY t.name ASC feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, WC_Cart->init, WC_Cart->get_cart_from_session, wc_get_product, WC_Product_Factory->get_product, WC_Product_Factory->get_product_class, get_the_terms, wp_get_object_terms
+[09-Nov-2015 08:48:58] Erro de banco de dados do WordPress Incorrect key file for table '/var/mysqltmp/#sql_3a6a_1.MYI'; try to repair it para a consulta SHOW FULL COLUMNS FROM `wp_postmeta` feita por do_action('wp_ajax_heartbeat'), call_user_func_array, wp_ajax_heartbeat, apply_filters('heartbeat_received'), call_user_func_array, wp_refresh_post_lock, wp_set_post_lock, update_post_meta, update_metadata
+[29-Jan-2016 00:34:52] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 00:34:52] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 00:36:06] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 00:36:06] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 00:36:33] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 00:36:33] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 00:38:09] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 00:38:09] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 00:41:26] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 00:41:26] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 02:29:04] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Too many connections in /home/dogma/public_html/wp-includes/wp-db.php on line 1518
+[29-Jan-2016 03:18:15] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 03:18:15] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[29-Jan-2016 03:20:40] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[29-Jan-2016 03:20:40] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[19-Feb-2016 04:32:45 UTC] PHP Notice: The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended. in /home/dogma/public_html/wp-includes/class-simplepie.php on line 1446
+[21-Feb-2016 05:16:00 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[21-Feb-2016 05:16:00 UTC] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[03-Mar-2016 07:13:39 UTC] PHP Notice: The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended. in /home/dogma/public_html/wp-includes/class-simplepie.php on line 1446
+[06-Mar-2016 06:53:10 UTC] XML Sitemap Feeds upgraded from 0 to 4.5.1
+[06-Mar-2016 06:53:10 UTC] XML Sitemap Feeds rewrite rules flushed
+[06-Mar-2016 18:28:48 UTC] XML Sitemap Feeds rewrite rules flushed
+[06-Mar-2016 22:20:57 UTC] PHP Notice: The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended. in /home/dogma/public_html/wp-includes/class-simplepie.php on line 1446
+[08-Mar-2016 08:59:29 UTC] PHP Notice: The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended. in /home/dogma/public_html/wp-includes/class-simplepie.php on line 1446
+[23-Mar-2016 23:54:40 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Mar-2016 23:54:40 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[23-Mar-2016 23:54:40 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[23-Mar-2016 23:55:30 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Mar-2016 23:55:30 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[23-Mar-2016 23:55:30 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[23-Mar-2016 23:59:39 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Mar-2016 23:59:39 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[23-Mar-2016 23:59:39 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:15:43 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Mar-2016 00:15:43 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:15:43 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:22:03 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Mar-2016 00:22:03 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:22:03 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:25:45 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Mar-2016 00:25:45 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:25:45 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:50:03 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Mar-2016 00:50:03 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 00:50:03 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 01:04:41 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Mar-2016 01:04:41 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[24-Mar-2016 01:04:41 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[08-Apr-2016 14:36:47 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Apr-2016 14:36:47 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[08-Apr-2016 14:36:47 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[08-Apr-2016 14:49:34 UTC] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Apr-2016 14:49:34 UTC] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[08-Apr-2016 14:49:34 UTC] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[14-Apr-2016 03:48:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/dogma/public_html/wp-includes/wp-db.php on line 1518
+[14-Apr-2016 03:48:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-includes/wp-db.php:1518) in /home/dogma/public_html/wp-includes/pluggable.php on line 1228
+[14-May-2016 23:28:14] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-May-2016 23:28:14] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[14-May-2016 23:28:14] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[17-May-2016 04:05:19] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 507
+[17-May-2016 04:05:19] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 508
+[17-May-2016 04:06:47] PHP Notice: The data could not be converted to UTF-8. You MUST have either the iconv or mbstring extension installed. Upgrading to PHP 5.x (which includes iconv) is highly recommended. in /home/dogma/public_html/wp-includes/class-simplepie.php on line 1446
+[21-May-2016 11:19:07] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[21-May-2016 11:19:07] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[21-May-2016 11:19:07] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[27-Jun-2016 19:57:16] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[27-Jun-2016 19:57:16] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[27-Jun-2016 19:57:16] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[17-Jul-2016 23:33:10] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[17-Jul-2016 23:33:10] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[17-Jul-2016 23:33:10] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[07-Aug-2016 13:25:20] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[07-Aug-2016 13:25:20] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[07-Aug-2016 13:25:20] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[05-Sep-2016 14:07:25] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[05-Sep-2016 14:07:25] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[05-Sep-2016 14:07:25] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[05-Sep-2016 18:11:53] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[05-Sep-2016 18:11:53] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[05-Sep-2016 18:11:53] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[15-Oct-2016 00:56:23] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[15-Oct-2016 00:56:23] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[15-Oct-2016 00:56:23] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[20-Oct-2016 14:21:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:21:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:21:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:22:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:22:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:22:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:23:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:23:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:23:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:24:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:24:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:24:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:26:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:26:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:26:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:27:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:27:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:27:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:29:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:29:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:29:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:31:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:31:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:31:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:33:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:33:59] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:33:59] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:35:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:35:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:35:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:36:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:36:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:36:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:38:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:38:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:38:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:40:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:40:26] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:40:26] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:41:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:41:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:41:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:42:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:42:37] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:42:37] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:43:55] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:43:55] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[20-Oct-2016 14:43:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:31] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:31] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:31] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:58] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:58] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:53:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:04] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:04] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:04] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:16] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:16] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 05:54:16] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:01] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:01] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:01] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:15] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:15] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:02:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[21-Oct-2016 06:49:11] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2) in /home/dogma/public_html/wp-includes/wp-db.php on line 1518
+[06-Dec-2016 23:19:26] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[06-Dec-2016 23:19:26] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[06-Dec-2016 23:19:26] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[11-Feb-2017 16:42:36] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Feb-2017 16:42:36] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[11-Feb-2017 16:42:36] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[16-Feb-2017 19:13:14] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Feb-2017 19:13:14] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[16-Feb-2017 19:13:14] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[16-Feb-2017 19:13:14] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Feb-2017 19:13:14] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[16-Feb-2017 19:13:14] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 316
+[08-Mar-2017 03:34:12] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1096,"customer_name":"Junior Oliveira","email":"jloj18178@gmail.com","new_status":"Conclu\u00eddo","total":"&#82;&#36;175,70 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[08-Mar-2017 03:45:32] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1095,"customer_name":"Jo\u00e3o Victor Sousa","email":"joaovictorpaulista@hotmail.com","new_status":"Cancelado","total":"&#82;&#36;74,00 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[22-Mar-2017 14:09:12] PHP Notice:  add_object_page está <strong>obsoleto</strong> desde a versão 4.5.0! Use add_menu_page() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:09:12] PHP Notice:  get_currentuserinfo está <strong>obsoleto</strong> desde a versão 4.5.0! Use wp_get_current_user() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:10:02] PHP Notice:  add_object_page está <strong>obsoleto</strong> desde a versão 4.5.0! Use add_menu_page() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:11:34] PHP Notice:  add_object_page está <strong>obsoleto</strong> desde a versão 4.5.0! Use add_menu_page() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:11:34] PHP Notice:  get_currentuserinfo está <strong>obsoleto</strong> desde a versão 4.5.0! Use wp_get_current_user() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:13:11] PHP Notice:  add_object_page está <strong>obsoleto</strong> desde a versão 4.5.0! Use add_menu_page() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:13:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-includes/functions.php:3829) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 480
+[22-Mar-2017 14:13:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-includes/functions.php:3829) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 481
+[22-Mar-2017 14:13:35] PHP Notice:  add_object_page está <strong>obsoleto</strong> desde a versão 4.5.0! Use add_menu_page() em seu lugar. in /home/dogma/public_html/wp-includes/functions.php on line 3829
+[22-Mar-2017 14:13:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-includes/functions.php:3829) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 480
+[22-Mar-2017 14:13:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-includes/functions.php:3829) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 481
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Table 'dogma_dogma.wp_woocommerce_sessions' doesn't exist para a consulta SELECT session_value FROM wp_woocommerce_sessions WHERE session_key = '1' feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WooCommerce->init, WC_Session_Handler->__construct, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[22-Mar-2017 14:15:28] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-includes/wp-db.php on line 1405 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'attribute_name' para a consulta ALTER TABLE wp_woocommerce_attribute_taxonomies ADD KEY `attribute_name` (`attribute_name`(191)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'download_order_key_product' para a consulta ALTER TABLE wp_woocommerce_downloadable_product_permissions ADD KEY `download_order_key_product` (`product_id`,`order_id`,`order_key`(191),`download_id`) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'meta_key' para a consulta ALTER TABLE wp_woocommerce_order_itemmeta ADD KEY `meta_key` (`meta_key`(191)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'tax_rate_country' para a consulta ALTER TABLE wp_woocommerce_tax_rates ADD KEY `tax_rate_country` (`tax_rate_country`(191)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'tax_rate_state' para a consulta ALTER TABLE wp_woocommerce_tax_rates ADD KEY `tax_rate_state` (`tax_rate_state`(191)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'tax_rate_class' para a consulta ALTER TABLE wp_woocommerce_tax_rates ADD KEY `tax_rate_class` (`tax_rate_class`(191)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:15:28] Erro de banco de dados do WordPress Duplicate key name 'location_type_code' para a consulta ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY `location_type_code` (`location_type`(40),`location_code`(90)) feita por require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[22-Mar-2017 14:18:35] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/dogma/public_html/wp-content/plugins/yith-woocommerce-product-bundles/class.yith-wcpb-admin.php on line 72
+[22-Mar-2017 14:18:43] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/dogma/public_html/wp-content/plugins/yith-woocommerce-product-bundles/class.yith-wcpb-admin.php on line 72
+[22-Mar-2017 14:18:47] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/dogma/public_html/wp-content/plugins/yith-woocommerce-product-bundles/class.yith-wcpb-admin.php on line 72
+[22-Mar-2017 14:18:53] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/dogma/public_html/wp-content/plugins/yith-woocommerce-product-bundles/class.yith-wcpb-admin.php on line 72
+[22-Mar-2017 14:18:55] PHP Parse error:  syntax error, unexpected T_PAAMAYIM_NEKUDOTAYIM in /home/dogma/public_html/wp-content/plugins/yith-woocommerce-product-bundles/class.yith-wcpb-admin.php on line 72
+[22-Mar-2017 14:27:09] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[22-Mar-2017 14:27:09] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[22-Mar-2017 14:27:09] PHP Parse error:  syntax error, unexpected T_STRING in /home/dogma/public_html/wp-content/plugins/w3-total-cache/inc/define.php on line 22
+[22-Mar-2017 14:27:45] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:27:48] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:28:24] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:28:46] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:28:56] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:28:57] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:29:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:29:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:29:09] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:29:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:29:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:29:38] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:29:45] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:30:17] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:30:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:30:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:30:29] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:30:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:30:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:30:59] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:31:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:31:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:31:34] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:31:38] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:31:40] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:31:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[22-Mar-2017 14:31:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[22-Mar-2017 14:31:45] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:32:18] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:32:21] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:02] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:11] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:17] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:32] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:33] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:43] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:48] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:33:50] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:34:37] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:34:48] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:35:02] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:35:04] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:35:52] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:36:10] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:36:24] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:36:25] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:37:12] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:39:11] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:41:12] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:43:11] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 14:45:11] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[22-Mar-2017 15:16:03] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[26-Mar-2017 02:33:48] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[26-Mar-2017 02:33:54] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[26-Mar-2017 02:34:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[26-Mar-2017 02:34:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[26-Mar-2017 02:34:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[26-Mar-2017 02:34:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[26-Mar-2017 02:34:04] PHP Notice:  yith_wcwl_products cookie cannot be set - headers already sent by /home/dogma/public_html/wp-content/advanced-cache.php on line 23 in /home/dogma/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 733
+[26-Mar-2017 02:34:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 611
+[26-Mar-2017 02:34:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-content/plugins/jetpack/modules/stats.php on line 612
+[25-Apr-2017 13:08:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-includes/pluggable.php on line 1195
+[25-Apr-2017 13:10:35] PHP Warning:  include(/home/dogma/public_html/wp-content/advanced-cache.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dogma/public_html/wp-settings.php on line 84
+[25-Apr-2017 13:10:35] PHP Warning:  include(/home/dogma/public_html/wp-content/advanced-cache.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/dogma/public_html/wp-settings.php on line 84
+[25-Apr-2017 13:10:35] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/home/dogma/public_html/wp-content/advanced-cache.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dogma/public_html/wp-settings.php on line 84
+[25-Apr-2017 13:10:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-settings.php:84) in /home/dogma/public_html/wp-includes/pluggable.php on line 1195
+[25-Apr-2017 13:13:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dogma/public_html/wp-content/advanced-cache.php:23) in /home/dogma/public_html/wp-includes/pluggable.php on line 1195
+[25-Apr-2017 13:14:22] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-May-2017 15:34:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-May-2017 15:34:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-May-2017 15:34:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-May-2017 16:34:09] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-posts.php on line 113
+[19-May-2017 16:34:23] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-posts.php on line 113
+[19-May-2017 16:34:44] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-posts.php on line 113
+[21-May-2017 02:22:16] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-May-2017 02:22:16] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-May-2017 02:22:16] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-May-2017 02:22:16] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[22-May-2017 01:22:29] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[26-May-2017 12:21:42] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-May-2017 12:21:42] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-May-2017 12:21:42] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-May-2017 12:21:43] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[06-Jun-2017 18:27:49] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 167
+[17-Jun-2017 00:21:57] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[17-Jun-2017 00:21:57] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[06-Jul-2017 00:26:09] Error checking in buffer: The buffer you checked in was not checked out
+[10-Jul-2017 14:41:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[10-Jul-2017 14:53:17] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[10-Jul-2017 14:53:17] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[10-Jul-2017 14:53:17] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[10-Jul-2017 14:53:17] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[13-Jul-2017 03:43:39] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[13-Jul-2017 03:43:39] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Jul-2017 03:43:39] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Jul-2017 03:43:40] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[13-Jul-2017 03:47:25] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Jul-2017 10:33:23] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Jul-2017 10:33:23] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 10:33:23] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 10:33:23] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Jul-2017 10:33:52] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Jul-2017 13:40:34] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Jul-2017 13:40:34] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 13:40:34] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 13:40:34] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Jul-2017 15:06:37] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Jul-2017 15:06:37] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 15:06:37] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 15:06:38] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Jul-2017 17:22:48] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Jul-2017 17:22:48] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Jul-2017 17:22:48] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Jul-2017 11:08:32] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[18-Jul-2017 11:08:32] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Jul-2017 11:08:32] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Jul-2017 11:08:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[18-Jul-2017 11:09:04] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[18-Jul-2017 11:09:04] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-Jul-2017 00:58:36] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[19-Jul-2017 00:58:36] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Jul-2017 00:58:36] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Jul-2017 00:58:37] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[27-Jul-2017 23:36:20] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[27-Jul-2017 23:36:20] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[27-Jul-2017 23:36:20] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[27-Jul-2017 23:36:21] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[27-Jul-2017 23:36:52] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[28-Jul-2017 00:04:19] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[28-Jul-2017 00:04:19] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[28-Jul-2017 00:04:19] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[28-Jul-2017 00:04:19] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[29-Jul-2017 01:37:31] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[29-Jul-2017 01:37:31] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[29-Jul-2017 01:37:31] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[29-Jul-2017 01:37:31] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[29-Jul-2017 01:39:36] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[31-Jul-2017 08:05:31] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[31-Jul-2017 08:05:31] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[31-Jul-2017 08:05:31] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[31-Jul-2017 08:05:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[31-Jul-2017 08:05:55] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[31-Jul-2017 08:05:55] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[01-Aug-2017 07:27:54] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[01-Aug-2017 07:27:54] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[01-Aug-2017 07:27:54] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[01-Aug-2017 07:27:54] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[01-Aug-2017 07:31:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[01-Aug-2017 07:31:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[03-Aug-2017 00:27:45] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[03-Aug-2017 00:27:45] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[03-Aug-2017 00:27:45] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[03-Aug-2017 00:27:46] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[03-Aug-2017 00:28:13] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[03-Aug-2017 00:28:13] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[03-Aug-2017 00:28:52] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1251,"customer_name":"Larissa Mota Oliveira","email":"lariissamota@hotmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;98,60 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[03-Aug-2017 00:28:52] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1251,"customer_name":"Larissa Mota Oliveira","email":"lariissamota@hotmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;98,60 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[03-Aug-2017 01:03:14] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[03-Aug-2017 01:03:14] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[03-Aug-2017 01:03:14] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[03-Aug-2017 01:03:15] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[13-Aug-2017 12:57:16] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[13-Aug-2017 12:57:16] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Aug-2017 12:57:16] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Aug-2017 12:57:16] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[13-Aug-2017 12:57:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[13-Aug-2017 12:57:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[13-Aug-2017 12:57:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[02-Sep-2017 15:30:46] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[02-Sep-2017 15:30:47] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[02-Sep-2017 15:30:47] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[02-Sep-2017 15:30:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[02-Sep-2017 15:31:23] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[02-Sep-2017 15:31:23] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[02-Sep-2017 15:31:23] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[02-Sep-2017 15:33:12] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1308,"customer_name":"nazareth guimar\u00e3es","email":"mnazareth1@yahoo.com.br","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;155,80 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[02-Sep-2017 15:33:12] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1308,"customer_name":"nazareth guimar\u00e3es","email":"mnazareth1@yahoo.com.br","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;155,80 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[02-Sep-2017 15:33:57] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1335,"customer_name":"VIVIANY JORGE ALVES","email":"vivianyja@hotmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;128,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[02-Sep-2017 15:33:57] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1335,"customer_name":"VIVIANY JORGE ALVES","email":"vivianyja@hotmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;128,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[05-Sep-2017 02:46:19] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[05-Sep-2017 02:46:19] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[05-Sep-2017 02:46:19] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[05-Sep-2017 02:46:19] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[05-Sep-2017 02:46:56] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[08-Sep-2017 02:27:59] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[08-Sep-2017 02:27:59] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Sep-2017 02:27:59] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Sep-2017 02:27:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[08-Sep-2017 02:28:44] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[08-Sep-2017 02:28:44] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[08-Sep-2017 02:28:44] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[08-Sep-2017 04:02:56] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[08-Sep-2017 04:02:56] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Sep-2017 04:02:56] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[08-Sep-2017 04:02:56] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[11-Sep-2017 14:41:03] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[11-Sep-2017 14:41:03] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Sep-2017 14:41:03] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Sep-2017 14:41:03] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[11-Sep-2017 14:41:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Sep-2017 14:41:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Sep-2017 14:41:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[12-Sep-2017 02:34:32] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[12-Sep-2017 02:34:32] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[12-Sep-2017 02:34:32] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[12-Sep-2017 02:34:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Sep-2017 03:11:36] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Sep-2017 03:11:36] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Sep-2017 03:11:36] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Sep-2017 03:11:37] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Sep-2017 03:12:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Sep-2017 03:12:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-Sep-2017 05:36:31] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[19-Sep-2017 05:36:31] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Sep-2017 05:36:31] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Sep-2017 05:36:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[19-Sep-2017 05:37:27] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-Sep-2017 05:37:27] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[20-Sep-2017 12:26:27] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[20-Sep-2017 12:26:27] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Sep-2017 12:26:27] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Sep-2017 12:26:28] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[20-Sep-2017 20:41:13] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[20-Sep-2017 20:41:13] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Sep-2017 20:41:13] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Sep-2017 20:41:13] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[25-Sep-2017 18:22:59] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[25-Sep-2017 18:22:59] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[25-Sep-2017 18:22:59] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[25-Sep-2017 18:22:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[25-Sep-2017 18:23:38] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[25-Sep-2017 18:23:38] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[25-Sep-2017 22:14:47] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[25-Sep-2017 22:14:47] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[25-Sep-2017 22:14:47] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[25-Sep-2017 22:14:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 12:21:26] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 12:21:26] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 12:21:26] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 12:21:26] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 12:35:04] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 12:35:04] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 12:35:04] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 12:35:04] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 13:49:58] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 13:49:58] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 13:49:58] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 13:49:58] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 13:50:31] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[26-Sep-2017 14:10:32] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1361,"customer_name":"Ciro Montaut","email":"cirospm@gmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;215,20 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[26-Sep-2017 14:10:33] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1361,"customer_name":"Ciro Montaut","email":"cirospm@gmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;215,20 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[26-Sep-2017 14:11:36] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1358,"customer_name":"Eduardo Matsuda","email":"es.matsuda@bol.com.br","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;125,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[26-Sep-2017 14:11:36] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1358,"customer_name":"Eduardo Matsuda","email":"es.matsuda@bol.com.br","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;125,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[26-Sep-2017 15:12:07] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 15:12:07] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 15:12:07] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 15:12:07] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 16:23:01] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 16:23:01] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 16:23:02] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 16:23:02] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 18:24:44] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[26-Sep-2017 18:24:44] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 18:24:44] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[26-Sep-2017 18:24:45] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[26-Sep-2017 19:21:29] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dogma/public_html/wp-includes/plugin.php on line 198
+[06-Oct-2017 19:42:59] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[06-Oct-2017 19:42:59] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[06-Oct-2017 19:42:59] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[06-Oct-2017 19:42:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[06-Oct-2017 19:43:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[06-Oct-2017 19:43:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[06-Oct-2017 19:43:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[06-Oct-2017 19:43:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[06-Oct-2017 20:34:59] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[06-Oct-2017 20:34:59] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[06-Oct-2017 20:34:59] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[06-Oct-2017 20:34:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[10-Oct-2017 21:03:57] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[10-Oct-2017 21:03:57] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[10-Oct-2017 21:03:57] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[10-Oct-2017 21:03:57] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[10-Oct-2017 21:04:27] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Oct-2017 22:40:05] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[11-Oct-2017 22:40:05] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Oct-2017 22:40:05] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Oct-2017 22:40:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[11-Oct-2017 22:40:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Oct-2017 22:40:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Oct-2017 22:40:32] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Oct-2017 10:00:36] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[14-Oct-2017 10:00:36] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Oct-2017 10:00:36] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[14-Oct-2017 10:00:36] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[14-Oct-2017 10:01:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Oct-2017 10:01:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Oct-2017 10:01:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Oct-2017 10:01:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[14-Oct-2017 10:01:37] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["fshTEvygI_s:APA91bFAYK59OOLT4QZx_rfQ1ktUMocjMPM8lTYvz_DeEdf6uk9ET93oBSEVl-ogESPxSU_NDLfPj57xl3Bu80qYbrWlTAaU-lShDoGKos5tshAhKt2_aZdV_xDFU5canhfs_Qb56u2E"],"data":{"message":{"push_notif_type":"order_changed","order_id":1369,"customer_name":"Pedro Muniz","email":"pedromunizphoto@gmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;95,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[14-Oct-2017 10:01:37] Mobile Assistant LOG: PUSH REQUEST DATA: {"registration_ids":["cIzG6THc-bI:APA91bHZiDQdPerrrCRTishNvuuETnQVxQ5fxsd3otxmqn1DxGKjGv50kptYMsKtSTed84Atu9vHbpLYLaknii4lubEmSYj02Vogic1mVJG8BrjAoZChIJSCWz9Zioq1y_hiq6sxhsFL"],"data":{"message":{"push_notif_type":"order_changed","order_id":1369,"customer_name":"Pedro Muniz","email":"pedromunizphoto@gmail.com","new_status":"Conclu\u00eddo","new_status_code":"wc-completed","total":"&#82;&#36;95,90 ","store_url":"www.dogmastore.com.br","app_connection_id":"1"}}}
+[15-Oct-2017 14:05:22] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[15-Oct-2017 14:05:22] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[15-Oct-2017 14:05:22] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[15-Oct-2017 14:05:22] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[15-Oct-2017 14:06:14] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[15-Oct-2017 15:05:45] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[15-Oct-2017 15:05:45] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
+[16-Oct-2017 13:21:46] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[16-Oct-2017 13:21:46] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Oct-2017 13:21:46] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Oct-2017 13:21:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[16-Oct-2017 13:22:20] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[16-Oct-2017 13:22:20] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[16-Oct-2017 20:53:35] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[16-Oct-2017 20:53:35] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Oct-2017 20:53:35] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[16-Oct-2017 20:53:35] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[18-Oct-2017 01:23:12] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[18-Oct-2017 01:23:12] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Oct-2017 01:23:12] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Oct-2017 21:09:55] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[18-Oct-2017 21:09:55] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Oct-2017 21:09:55] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[18-Oct-2017 21:09:55] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[18-Oct-2017 21:10:28] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[18-Oct-2017 21:10:28] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[18-Oct-2017 21:10:28] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[18-Oct-2017 21:10:28] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[19-Oct-2017 03:09:32] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[19-Oct-2017 03:09:32] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Oct-2017 03:09:32] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[19-Oct-2017 03:09:33] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[20-Oct-2017 02:29:14] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[20-Oct-2017 02:29:14] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Oct-2017 02:29:14] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Oct-2017 02:29:14] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[20-Oct-2017 02:29:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[20-Oct-2017 02:29:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[20-Oct-2017 02:29:59] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[20-Oct-2017 14:44:12] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[20-Oct-2017 14:44:12] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Oct-2017 14:44:12] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[20-Oct-2017 14:44:13] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[21-Oct-2017 13:04:19] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[21-Oct-2017 13:04:19] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[21-Oct-2017 13:04:19] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[21-Oct-2017 13:04:19] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[21-Oct-2017 16:24:11] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-Oct-2017 16:24:12] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-Oct-2017 16:24:12] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[21-Oct-2017 16:25:57] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[21-Oct-2017 16:25:57] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
+[21-Oct-2017 16:29:58] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[21-Oct-2017 16:29:58] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
+[21-Oct-2017 16:31:58] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 586
+[21-Oct-2017 16:31:58] PHP Notice:  Undefined variable: sb_instagram_follow_btn_position in /home/dogma/public_html/wp-content/plugins/instagram-feed/instagram-feed-admin.php on line 587
+[22-Oct-2017 15:18:42] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[22-Oct-2017 15:18:42] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[22-Oct-2017 15:18:42] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[22-Oct-2017 15:18:43] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[22-Oct-2017 15:19:08] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[22-Oct-2017 15:19:08] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[22-Oct-2017 15:19:08] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[22-Oct-2017 20:08:55] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[22-Oct-2017 20:08:56] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[22-Oct-2017 20:08:56] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[22-Oct-2017 20:08:56] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[23-Oct-2017 12:33:35] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[23-Oct-2017 12:33:35] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 12:33:35] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 12:33:37] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[23-Oct-2017 15:22:21] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[23-Oct-2017 15:22:21] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 15:22:21] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 15:22:22] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[23-Oct-2017 15:22:55] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[23-Oct-2017 16:59:15] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[23-Oct-2017 16:59:15] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 16:59:15] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[23-Oct-2017 16:59:15] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[24-Oct-2017 12:41:47] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[24-Oct-2017 12:41:47] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Oct-2017 12:41:47] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Oct-2017 12:41:48] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[24-Oct-2017 13:46:36] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[24-Oct-2017 13:46:36] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Oct-2017 13:46:36] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[24-Oct-2017 13:46:36] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[24-Oct-2017 13:47:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[24-Oct-2017 13:47:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[24-Oct-2017 13:47:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[24-Oct-2017 13:47:06] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[11-Nov-2017 18:06:10] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[11-Nov-2017 18:06:10] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Nov-2017 18:06:10] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[11-Nov-2017 18:06:10] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[11-Nov-2017 18:06:47] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-admin/includes/dashboard.php on line 1227
+[13-Nov-2017 14:15:41] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[13-Nov-2017 14:15:41] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Nov-2017 14:15:41] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Nov-2017 14:15:42] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
+[13-Nov-2017 16:43:59] PHP Warning:  Missing argument 2 for Jetpack_Protect_Module::log_successful_login() in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 314
+[13-Nov-2017 16:43:59] PHP Notice:  Undefined variable: user in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Nov-2017 16:43:59] PHP Notice:  Trying to get property of non-object in /home/dogma/public_html/wp-content/plugins/jetpack/modules/protect.php on line 315
+[13-Nov-2017 16:44:00] PHP Notice:  Undefined offset:  1 in /home/dogma/public_html/wp-content/plugins/jetpack/sync/class.jetpack-sync-module-users.php on line 92
