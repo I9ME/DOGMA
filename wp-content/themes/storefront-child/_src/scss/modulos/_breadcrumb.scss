@@ -1,0 +1,45 @@
+.breadcrumb{
+	$self : &;
+	@extend %boxFull;
+	@include span(1);
+	background: $white;
+	border-bottom: 1px solid #eee;
+
+	#breadcrumbs{
+		display: none;
+		@include respond-to(sm){
+			margin: 20px 0;
+			display: block;
+		}
+		@include respond-to(md){
+			margin: 25px 0;     
+			
+		}
+	a[rel="v:url"]{
+		background: url(../images/home.png)no-repeat;
+	    background-position: left;
+		padding-left: 29px;
+	}
+	span[rel="v:child"]{
+		a{
+			background: none;
+		}
+	}
+	a,span{
+		color: #0b2b4c;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 500;
+		margin-right: 15px;
+		font-size: 13px;
+		// a[rel="v:url"]{
+		// background: non
+		// }
+	}
+	.breadcrumb_last{
+		color: #888;
+		margin-left: 15px;
+	}
+
+	}
+}

@@ -1,0 +1,35 @@
+.controls{
+	@include span(1);
+	    height: 65px;
+	    border: 1px solid #eee;
+	    margin: 30px 0 0;
+	    text-align: center;
+
+	   a[rel="prev"]{
+	    	background: url(../images/control-left.png)no-repeat;
+	    	width: 30px;
+		    height: 22px;
+		    display: inline-block;
+		    margin: 20px;
+		    float: left;
+	    }
+	  
+	   		a[rel="next"]{
+	   		background: url(../images/control-right.png)no-repeat;
+	   	    height: 22px;
+		    width: 30px;
+		    display: inline-block;
+		    float: right;
+		    margin: 20px;
+
+	   		}
+	    
+	     @include e('center'){
+	    	background: url(../images/control-center.png)no-repeat;
+	    	width: 35px;
+		    height: 35px;
+		    display: inline-block;
+		    margin: 14px;
+		  
+	    }
+}

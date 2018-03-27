@@ -13,11 +13,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /dogma/public_html/
+RewriteBase /dogmastore/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /dogma/public_html/index.php [L]
+RewriteRule . /dogmastore/index.php [L]
 </IfModule>
 
 # END WordPress

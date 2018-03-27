@@ -1,0 +1,334 @@
+2018-03-26T15:41:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:44+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:46+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:47+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:48+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:49+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:50+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\template-homepage.php(15): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\
+
+2018-03-26T17:22:51+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:52+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:53+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:56+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:56+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:22:57+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:23:03+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:23:05+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:23:06+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:23:07+00:00 CRITICAL Uncaught Error: Call to undefined function getElementsByClassName() in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php:87
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): logo('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\header.php(71): do_action('storefront_head...')
+#4 C:\xampp\htdocs\dogmastore\wp-includes\template.php(688): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-includes\template.php(647): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\dogmastore\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront\404.php(8): get_header()
+#8 C:\xampp\htdocs\dogmastore\wp-includes\template-loader.php(74): include('C:\\xampp\\htdocs...')
+#9 
+
+2018-03-26T17:35:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2018-03-27T16:01:09+00:00 CRITICAL Uncaught Error: Call to a member function add_partial() on null in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php:63
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php(9): require_once()
+#1 C:\xampp\htdocs\dogmastore\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogmastore\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dogmastore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dogmastore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown
+
+2018-03-27T16:01:57+00:00 CRITICAL Uncaught Error: Call to a member function add_partial() on null in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php:63
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php(9): require_once()
+#1 C:\xampp\htdocs\dogmastore\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogmastore\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dogmastore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dogmastore\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown
+
+2018-03-27T16:02:19+00:00 CRITICAL Uncaught Error: Call to a member function add_partial() on null in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php:56
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(286): tema_setup('')
+#1 C:\xampp\htdocs\dogmastore\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\dogmastore\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\dogmastore\wp-settings.php(434): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\dogmastore\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dogmastore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\dogmastore\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown
+
+2018-03-27T17:01:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php on line 77 and at least 2 expected in C:\xampp\htdocs\dogmastore\wp-includes\plugin.php:398
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php(77): add_action('custom_logo')
+#1 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogmastore\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dogmastore\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dogmastore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dogmastore\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+
+2018-03-27T17:02:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php on line 77 and at least 2 expected in C:\xampp\htdocs\dogmastore\wp-includes\plugin.php:398
+Stack trace:
+#0 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\_lib\config.php(77): add_action('custom_logo')
+#1 C:\xampp\htdocs\dogmastore\wp-content\themes\storefront-child\functions.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\dogmastore\wp-settings.php(424): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\dogmastore\wp-config.php(95): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\dogmastore\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\dogmastore\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\dogmastore\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown
+

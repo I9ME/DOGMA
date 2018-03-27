@@ -28,7 +28,7 @@ define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
 
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'dogma_dogma');
+define('DB_NAME', 'dogma');
 
 /** Usuário do banco de dados MySQL */
 define('DB_USER', 'root');
