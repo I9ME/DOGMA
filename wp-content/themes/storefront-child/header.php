@@ -23,9 +23,11 @@
 <?php do_action( 'storefront_before_site' ); ?>
 
 <div id="page" class="hfeed site">
+	
 	<?php do_action( 'storefront_before_header' ); ?>
+
 	<div class="header-bar">
-		<div class="col-full">
+		<div class="container">
 			<div class="header-bar__nav">
 				<div class="redes">
 					<ul class="redes__lista">
@@ -53,47 +55,23 @@
 	</div>
 	<header id="masthead" class="site-header header" role="banner" style="<?php storefront_header_styles(); ?>">
 			
-			<?php
-			/**
-			 * Functions hooked into storefront_header action
-			 *
-			 * @hooked storefront_skip_links                       - 0
-			 * @hooked storefront_social_icons                     - 10
-			 * @hooked storefront_site_branding                    - 20
-			 * @hooked storefront_secondary_navigation             - 30
-			 * @hooked storefront_product_search                   - 40
-			 * @hooked storefront_primary_navigation_wrapper       - 42
-			 * @hooked storefront_primary_navigation               - 50
-			 * @hooked storefront_header_cart                      - 60
-			 * @hooked storefront_primary_navigation_wrapper_close - 68
-			 */
-			do_action( 'storefront_header' ); ?>
-			<div class="container">
-			<div class="header__menu-desktop">
+		<?php do_action( 'storefront_header' ); ?>
+
+		<div class="container">
+			
 				
-					<div class="header__brand">
-						<a href="<?php echo home_url(); ?>">            
-							<h1 class="header__logo">
-								<img src=<?php echo get_stylesheet_directory_uri().'/assets/images/logo_dogma_store.png'?>>
-							</h1>           
-						</a>
-					</div>
-
-					<a href="#menu" class="header__toggle"><span></span></a>
-
-					<?php  wp_nav_menu( array(
-						'theme_location'  => 'menu_1', 
-						'menu_class'      => 'menu__nav ',
-						'container_class' => 'header__menu')); 
-					?>
-
-					<div class="header__carrinho">
-						<span>Carrinho</span>	
-					</div>
+				<?php do_action( 'storefront_site_branding', 20 ); ?>
 				
-			</div>
-			</div>
-	</header><!-- #masthead -->
+
+				<?php do_action( 'storefront_primary_navigation', 50 ); ?>
+		
+				
+				<!-- componente carrinho -->
+				<?php do_action( 'storefront_header', 'storefront_header_cart', 60 ); ?>
+					
+		
+		</div>
+	</header>
 
 	<?php
 	/**

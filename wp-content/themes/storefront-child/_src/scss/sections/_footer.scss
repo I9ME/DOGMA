@@ -1,89 +1,28 @@
+.i9me{
+    background: $black;
+    min-height: 53px;
+    padding: 10px 0;
+  
+
+    @include e('developer'){
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    @include e('copyright'){
+        font-size: 11px;
+        text-align: center;
+        color: #999;
+        margin:0;
+    }
+}
 .footer {
     $self : &;
     @extend %boxFull;
     position: relative;
     background: $white;
-
-    @include respond-to(sm){
-        padding-top: 60px;        
-    }
-
-    @include e('list-cls'){
-        flex-direction: column;
-        margin: 0;
-
-        @include respond-to(sm){
-            flex-direction: inherit;
-            @include Display_flex(flex,flex-start,space-between);
-        }
-    }
-
-
-    @include e('list-cls-item'){
-        height: 170px;
-        
-        @include respond-to(md){
-            @include col(1/5, $cycle: 5);
-        }
-
-        
-    }
-
-    @include e('address'){
-        @include fonts(300,13);
-        color: $gray;
-    }
-    
-    @include e('fone'){
-        @include fonts(300,13);
-        color: $gray;
-    }
-    
-    @include e('newsletter'){
-        @extend %boxFull;
-        @include Display_flex(flex,flex-start,space-between);
-        flex-direction: column;
-
-        p{
-            margin: 0;
-        }
-
-        input{
-            width: 100%;
-            border: 1px solid $blue;
-            border-radius: 10px;
-            padding: 7px 10px;
-            @include fonts(300,13);
-        }
-        input[type="submit"]{
-            width: 80px;
-            background: $blue;
-            color: $white;
-            @include fonts(300,11);
-            padding: 6px 0;
-            margin-top: 13px;
-            text-transform: uppercase;
-
-        }
-    }
-
-    @include e('barra'){
-        background: $black;
-        height: 30px;
-        
-        @include respond-to(sm){
-            margin-top: 60px;
-        }
-
-        .devari{
-            background: url(../images/devari.png) no-repeat;
-            width: 102px;
-            height: 30px;
-            display: block;
-            margin: 0 auto;
-            background-size: 23%;
-            background-position: 50%;
-        }
-    }
 
  }
